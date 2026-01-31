@@ -79,8 +79,6 @@ manager_handle_workspace_group(void *data, struct ext_workspace_manager_v1 *mgr,
   // We don't currently track groups explicitly for simple listing/activation,
   // but the protocol requires handling the binding.
   // For now we just let it exist.
-  // In a fuller implementation we might want to track which group a workspace
-  // belongs to.
 }
 
 static void
@@ -89,7 +87,7 @@ manager_handle_workspace(void *data, struct ext_workspace_manager_v1 *mgr,
   struct workspace_info *info = calloc(1, sizeof(struct workspace_info));
   info->handle = workspace;
   ext_workspace_handle_v1_add_listener(workspace, &workspace_listener, info);
-  wl_list_insert(&workspaces, &info->link);
+  wl_list_insert(workspaces.prev, &info->link);
 }
 
 static void manager_handle_done(void *data,
