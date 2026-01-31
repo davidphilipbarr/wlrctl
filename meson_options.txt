@@ -1,0 +1,2 @@
+option('zsh-completions', type: 'boolean', value: true, description: 'Install zsh shell completions.')
+option('man-pages', type: 'feature', value: 'auto', description: 'Install the manual page')
