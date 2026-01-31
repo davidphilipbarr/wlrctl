@@ -19,6 +19,7 @@ protocols = [
 	'wlr-virtual-pointer-unstable-v1.xml',
 	'wlr-foreign-toplevel-management-unstable-v1.xml',
 	'wlr-output-management-unstable-v1.xml',
+	'ext-workspace-v1.xml',
 ]
 
 client_protos_src = []
