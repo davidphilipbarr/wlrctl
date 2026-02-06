@@ -3,15 +3,14 @@
 wlrctl is a command line utility for miscellaneous wlroots Wayland extensions.
 
 At this time, wlrctl supports the foreign-toplevel-mangement (window/toplevel command),
-virtual-keyboard (keyboard command), and virtual-pointer (pointer command) protocols.
+virtual-keyboard (keyboard command), ext-workspaces (workspace) and virtual-pointer (pointer command) protocols.
 
 Requires wlroots 0.13+
 
 ## Installation
 
-There is an AUR package for wlrctl [here][aur-wlrctl],
-an openSUSE package [here][os-wlrctl],
-and a Makedeb package [here][mpr-wlrctl].
+There is an AUR package for wlrctl [here][aur-wlrctl].
+And an openSUSE package [here][os-wlrctl].
 
 Otherwise, build with meson/ninja e.g.
 
@@ -41,6 +40,11 @@ Some example uses are:
 
 ... to dismiss desktop notifications when mpv becomes fullscreen
 
+    $ wlrctl workspace list
+
+... List all available workspaces
+
+
 
 ## Contributing
 
@@ -49,6 +53,5 @@ You can send patches to the [mailing list][list-wlrctl] or submit an issue on th
 
 [aur-wlrctl]: https://aur.archlinux.org/packages/wlrctl
 [os-wlrctl]: https://build.opensuse.org/package/show/X11:Wayland/wlrctl
-[mpr-wlrctl]: https://mpr.makedeb.org/packages/wlrctl-git
 [todo-wlrctl]: https://todo.sr.ht/~brocellous/wlrctl
 [list-wlrctl]: https://lists.sr.ht/~brocellous/public-inbox

@@ -29,6 +29,8 @@ wlrctl [options...] [command]
 
 *output* { <action> | <identifier> [config_action] }
 	Use the output management interface.
+	
+	
 
 # KEYBOARD ACTIONS
 
@@ -67,9 +69,6 @@ wlrctl [options...] [command]
 *focus* [matches...]
 	Instruct the compositor to focus matching windows.
 
-*close* [matches...]
-	Instruct the compositor to close matching windows.
-
 *find* [matches...]
 	Exit with a successful return code iff there is at least one window
 	matching the provided criteria.
@@ -87,6 +86,21 @@ wlrctl [options...] [command]
 
 *list*
 	List the names of all known outputs
+	
+
+# WORKSPACE ACTIONS
+
+*list*
+	List the names of workspaces
+	
+*activate* [workspace name]
+	go to workspace 	
+	
+*prev* 
+	go to previous workspace 
+	
+*next*
+	go to next workspace 	
 
 # TOPLEVEL MATCHSPEC
 

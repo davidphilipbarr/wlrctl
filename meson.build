@@ -38,6 +38,7 @@ src_files = [
 	'pointer.c',
 	'toplevel.c',
 	'output.c',
+	'workspace.c',
 	'util.c',
 ]
 
@@ -57,7 +58,7 @@ executable(
 
 scdoc = dependency('scdoc', native: true, required: get_option('man-pages'))
 if scdoc.found()
-	scdoc_cmd = find_program(scdoc.get_variable(pkgconfig: 'scdoc'), native: true)
+	scdoc_cmd = find_program(scdoc.get_pkgconfig_variable('scdoc'), native: true)
 	sh = find_program('sh', native: true)
 	mandir = get_option('mandir')
 	output = 'wlrctl.1'
@@ -65,7 +66,7 @@ if scdoc.found()
 		output,
 		input: 'wlrctl.1.scd',
 		output: output,
-		command: [sh, '-c', '@0@ < @INPUT@ > @1@'.format(scdoc_cmd.full_path(), output)],
+		command: [sh, '-c', '@0@ < @INPUT@ > @1@'.format(scdoc_cmd.path(), output)],
 		install: true,
 		install_dir: '@0@/man1'.format(mandir)
 	)

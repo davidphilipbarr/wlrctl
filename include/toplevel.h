@@ -9,6 +9,7 @@ enum toplevel_attr {
 	TOPLEVEL_ATTR_MINIMIZED  = 1<<4,
 	TOPLEVEL_ATTR_ACTIVATED  = 1<<5,
 	TOPLEVEL_ATTR_FULLSCREEN = 1<<6,
+	TOPLEVEL_ATTR_ID         = 1<<7,
 };
 
 enum toplevel_action {
@@ -29,6 +30,7 @@ struct toplevel_matchspec {
 	// toplevel attr
 	struct wl_array app_ids;
 	struct wl_array titles;
+	struct wl_array ids;
 	// toplevel state
 	bool maximized;
 	bool minimized;
@@ -50,12 +52,18 @@ struct wlrctl_toplevel_command {
 struct toplevel_data {
 	char *app_id;
 	char *title;
+	char *identifier;
 	struct wl_array state;
 	struct zwlr_foreign_toplevel_handle_v1 *parent;
+	struct zwlr_foreign_toplevel_handle_v1 *handle;
+	struct ext_foreign_toplevel_handle_v1 *ftl_list_handle;
 	struct wl_list link;
 	struct wlrctl_toplevel_command *cmd;
-	bool matched, done;
+	bool matched, done, printed;
 };
+
+extern struct zwlr_foreign_toplevel_manager_v1_listener zwlr_foreign_toplevel_manager_v1_listener;
+extern struct ext_foreign_toplevel_list_v1_listener ext_foreign_toplevel_list_v1_listener;
 
 void prepare_toplevel(struct wlrctl *state, int argc, char **argv);
 void run_toplevel(struct wlrctl *state);

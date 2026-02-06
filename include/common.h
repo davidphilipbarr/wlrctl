@@ -2,6 +2,8 @@
 #define WLRCTL_COMMON_H
 
 #include <stdbool.h>
+#include <stdint.h>
+#include <wayland-client.h>
 
 enum wlrctl_command {
 	WLRCTL_COMMAND_UNSPEC = 0,
@@ -9,6 +11,7 @@ enum wlrctl_command {
 	WLRCTL_COMMAND_POINTER,
 	WLRCTL_COMMAND_TOPLEVEL,
 	WLRCTL_COMMAND_OUTPUT,
+	WLRCTL_COMMAND_WORKSPACE,
 };
 
 struct wlrctl {
@@ -20,6 +23,8 @@ struct wlrctl {
 	struct zwlr_foreign_toplevel_manager_v1 *ftl_mgr;
 	struct zwlr_virtual_pointer_manager_v1 *vp_mgr;
 	struct zwlr_output_manager_v1 *output_mgr;
+	struct ext_workspace_manager_v1 *workspace_mgr;
+	struct ext_foreign_toplevel_list_v1 *ftl_list_mgr;
 
 	// State
 	bool running, failed;
