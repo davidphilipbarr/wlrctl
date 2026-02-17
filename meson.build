@@ -1,5 +1,5 @@
 project(
-	'wlrctl',
+	'wlrctlx',
 	'c',
 	version: '0.2.2',
 	license: 'MIT',
@@ -45,7 +45,7 @@ src_files = [
 includes = include_directories('include')
 
 executable(
-	'wlrctl',
+	'wlrctlx',
 	files(src_files),
 	dependencies: [
 		client_protos,

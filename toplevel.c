@@ -27,6 +27,8 @@ parse_action(const char *action)
 		{"list",       TOPLEVEL_ACTION_LIST      },
 		{"maximize",   TOPLEVEL_ACTION_MAXIMIZE  },
 		{"minimize",   TOPLEVEL_ACTION_MINIMIZE  },
+		{"restore",    TOPLEVEL_ACTION_UNMINIMIZE},
+		{"unminimize", TOPLEVEL_ACTION_UNMINIMIZE},
 		{"wait",       TOPLEVEL_ACTION_WAIT      },
 		{"waitfor",    TOPLEVEL_ACTION_WAITFOR   },
 		{NULL, TOPLEVEL_ACTION_UNSPEC}
@@ -348,6 +350,9 @@ zwlr_foreign_toplevel_handle_v1_handle_done(void *user_data,
 	case TOPLEVEL_ACTION_MINIMIZE:
 		if (data->handle) zwlr_foreign_toplevel_handle_v1_set_minimized(data->handle);
 		break;
+	case TOPLEVEL_ACTION_UNMINIMIZE:
+		if (data->handle) zwlr_foreign_toplevel_handle_v1_unset_minimized(data->handle);
+		break;
 	case TOPLEVEL_ACTION_MAXIMIZE:
 		if (data->handle) zwlr_foreign_toplevel_handle_v1_set_maximized(data->handle);
 		break;
@@ -521,6 +526,9 @@ ext_foreign_toplevel_handle_v1_handle_done(void *user_data,
 		break;
 	case TOPLEVEL_ACTION_MINIMIZE:
 		if (data->handle) zwlr_foreign_toplevel_handle_v1_set_minimized(data->handle);
+		break;
+	case TOPLEVEL_ACTION_UNMINIMIZE:
+		if (data->handle) zwlr_foreign_toplevel_handle_v1_unset_minimized(data->handle);
 		break;
 	case TOPLEVEL_ACTION_CLOSE:
 		if (data->handle) {

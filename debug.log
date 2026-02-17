@@ -1,0 +1,92 @@
+DEBUG: Check merge. Data(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=(null), Title=(null)) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=1, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=(null), App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=1, TitleMatch=0
+DEBUG: Check merge. Data(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=0
+DEBUG: Check merge. Data(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=0
+DEBUG: Check merge. Data(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=0
+DEBUG: Check merge. Data(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: ext CLOSE action. matched=1 handle=0x556769bc7300
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=0c07cb9d32410253878c444d45952c8c, App=discord, Title=#shed-zone | BritSplits - Discord) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=316c9b4c171ea7adcaf361a970c21c18, App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=1, TitleMatch=0
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=7e7c92495a423c0f56ebc20e462a0e22, App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=bd4bf25be5fb86d55538b7a4ace0a9b8, App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=4c4de8b77319ec3444f847b1ce1deb34, App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=discord, Title=#shed-zone | BritSplits - Discord) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~/Projects/gnome/Mamo) -> IDMatch=0, AppMatch=1, TitleMatch=0
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.TextEditor, Title=wlr-overview.py (~/bin) - Text Editor) -> IDMatch=0, AppMatch=0, TitleMatch=0
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=org.gnome.Console, Title=david@huber: ~) -> IDMatch=0, AppMatch=1, TitleMatch=1
+DEBUG: Merging!
+DEBUG: Check merge. Data(ID=e41ee04a48cc45544a419f2e56a8cc8f, App=org.gnome.Console, Title=david@huber: ~) vs Other(ID=(null), App=antigravity, Title=wlrctl-ext - Antigravity - Walkthrough) -> IDMatch=0, AppMatch=0, TitleMatch=0

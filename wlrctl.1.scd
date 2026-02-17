@@ -60,6 +60,9 @@ wlrctl [options...] [command]
 *minimize* [matches...]
 	Instruct the compositor to minimize matching windows.
 
+*unminimize|restore* [matches...]
+	Instruct the compositor to unminimize matching windows.
+
 *maximize* [matches...]
 	Instruct the compositor to maximize matching windows.
 
