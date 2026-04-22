@@ -1,25 +1,22 @@
-# wlrctl
+# wlrctlx
 
-wlrctl is a command line utility for miscellaneous wlroots Wayland extensions.
+wlrctlx is a command line utility for miscellaneous wlroots Wayland extensions.
 
-At this time, wlrctl supports the foreign-toplevel-mangement (window/toplevel command),
+Wlrctlx supports the foreign-toplevel-mangement (window/toplevel command),
 virtual-keyboard (keyboard command), ext-workspaces (workspace) and virtual-pointer (pointer command) protocols.
 
 Requires wlroots 0.13+
 
 ## Installation
 
-There is an AUR package for wlrctl [here][aur-wlrctl].
-And an openSUSE package [here][os-wlrctl].
-
-Otherwise, build with meson/ninja e.g.
+Build with meson/ninja e.g.
 
     $ meson setup --prefix=/usr/local build
 	$ ninja -C build install
 
 ## Features and Examples
 
-wlrctl is still experimental, and has just a few basic features.
+wlrctlx is still experimental, and has just a few basic features.
 Check the man page wlrctl(1) for full details.
 
 Some example uses are:
@@ -47,15 +44,3 @@ Some example uses are:
     $ wlrctlx workspace list
 
 ... List all available workspaces
-
-
-
-## Contributing
-
-You can send patches to the [mailing list][list-wlrctl] or submit an issue on the
-[issue tracker][todo-wlrctl].
-
-[aur-wlrctl]: https://aur.archlinux.org/packages/wlrctl
-[os-wlrctl]: https://build.opensuse.org/package/show/X11:Wayland/wlrctl
-[todo-wlrctl]: https://todo.sr.ht/~brocellous/wlrctl
-[list-wlrctl]: https://lists.sr.ht/~brocellous/public-inbox
