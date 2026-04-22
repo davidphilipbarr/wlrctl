@@ -24,23 +24,27 @@ Check the man page wlrctl(1) for full details.
 
 Some example uses are:
 
-    $ wlrctl keyboard type 'Hello, world!'
+    $ wlrctlx keyboard type 'Hello, world!'
 
 ... to type some text using a virtual keyboard.
 
-    $ wlrctl pointer move 50 -70
+    $ wlrctlx pointer move 50 -70
 
 ... to move the cursor 50 pixels right and 70 pixels up.
 
-    $ wlrctl window focus firefox || swaymsg exec firefox
+    $ wlrctlx window focus firefox || swaymsg exec firefox
 
 ... to focus firefox if it is running, otherwise start firefox.
 
-    $ wlrctl toplevel waitfor mpv state:fullscreen && makoctl dismiss
+    $ wlrctlx toplevel waitfor mpv state:fullscreen && makoctl dismiss
+
+... to show focused window.
+
+    $ wlrctlx toplevel list state:active
 
 ... to dismiss desktop notifications when mpv becomes fullscreen
 
-    $ wlrctl workspace list
+    $ wlrctlx workspace list
 
 ... List all available workspaces
 
